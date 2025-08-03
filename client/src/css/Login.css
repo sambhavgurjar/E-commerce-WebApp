@@ -1,0 +1,63 @@
+.login-page-container {
+    max-width: 450px;
+    margin: 80px auto;
+    padding: 30px 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .login-title {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 600;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .login-button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .login-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+  
+  /* Role-specific colors */
+  .login-btn.vendor {
+    background-color: #007bff;
+  }
+  .login-btn.vendor:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-btn.customer {
+    background-color: #28a745;
+  }
+  .login-btn.customer:hover {
+    background-color: #1e7e34;
+  }
+  
+  .login-btn.admin {
+    background-color: #dc3545;
+  }
+  .login-btn.admin:hover {
+    background-color: #a71d2a;
+  }
+  
+  .login-outlet {
+    margin-top: 30px;
+  }
+  

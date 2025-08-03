@@ -1,0 +1,52 @@
+.new-pin-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9fcff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .new-pin-form h2 {
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 20px;
+  }
+  
+  .new-pin-form div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new-pin-form label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #333;
+  }
+  
+  .new-pin-form input,
+  .new-pin-form select {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+  }
+  
+  .new-pin-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .new-pin-form button:hover {
+    background-color: #0056b3;
+  }
+  

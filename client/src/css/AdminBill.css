@@ -1,0 +1,42 @@
+.admin-bill-page {
+    padding: 24px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-bill-page h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .admin-bill-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .admin-bill-table th,
+  .admin-bill-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .admin-bill-table th {
+    background-color: #ffe6cc;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .admin-bill-table td {
+    color: #555;
+  }
+  
+  .admin-bill-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  

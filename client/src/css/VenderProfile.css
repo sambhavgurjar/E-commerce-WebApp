@@ -1,0 +1,76 @@
+.vendor-profile-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .vendor-profile-title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  .vendor-profile-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .vendor-profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .vendor-profile-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f9fc;
+    border: 1px solid #ddd;
+    padding: 12px 20px;
+    border-radius: 6px;
+  }
+  
+  .vendor-profile-row label {
+    font-weight: 600;
+    color: #333;
+    flex: 1;
+  }
+  
+  .vendor-profile-row span {
+    flex: 2;
+    color: #555;
+    text-align: right;
+  }
+  
+  .vendor-profile-loading {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+  }
+  .edit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  

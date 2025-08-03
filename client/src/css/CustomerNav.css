@@ -1,0 +1,117 @@
+/* CustomerNav.css */
+
+/* Navbar container */
+.customer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 20px; /* Compact height */
+  background-color: #e6f2ff;
+  font-family: sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Brand Name */
+.customer-nav-logo .brand-name {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0077cc;
+  font-size: 20px;
+}
+
+.customer-nav-logo .brand-name p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.customer-nav-logo .brand-name:hover {
+  color: #005fa3;
+}
+
+/* Navigation Links */
+.customer-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.customer-nav-links li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.customer-nav-links li a:hover {
+  color: #0077cc;
+}
+
+/* Auth Section */
+.customer-nav-auth {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.customer-username {
+  font-size: 14px;
+  font-weight: 500;
+  color: #444;
+}
+
+.profile-link {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+  font-size: 14px;
+  border: 1px solid #0077cc;
+  padding: 4px 10px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.profile-link:hover {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+/* Logout Button */
+.customer-nav-auth button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.customer-nav-auth button:hover {
+  background-color: #cc0000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .customer-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .customer-nav-links,
+  .customer-nav-auth {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 6px;
+  }
+}

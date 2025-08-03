@@ -1,0 +1,64 @@
+.customer-mgt-container {
+  padding: 30px;
+  background-color: #fefefe;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table th,
+.customer-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.customer-table th {
+  background-color: #f0f0f0;
+}
+
+.btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-right: 6px;
+}
+
+.btn.activate {
+  background-color: #198754;
+}
+
+.btn.activate:hover {
+  background-color: #157347;
+}
+
+.btn.deactivate {
+  background-color: #dc3545;
+}
+
+.btn.deactivate:hover {
+  background-color: #bb2d3b;
+}

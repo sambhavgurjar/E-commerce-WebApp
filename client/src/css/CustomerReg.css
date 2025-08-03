@@ -1,0 +1,74 @@
+.customer-register-page {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 35px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.customer-register-page h2 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.customer-register-page .form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-register-page .form-group label {
+  margin-bottom: 8px;
+  color: #444;
+  font-weight: 500;
+}
+
+.customer-register-page .form-group input,
+.customer-register-page .form-group select {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border 0.3s ease;
+}
+
+.customer-register-page .form-group input:focus,
+.customer-register-page .form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.customer-register-page .form-group img {
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.customer-register-page button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.customer-register-page button:hover {
+  background-color: #0056b3;
+}
+
+.customer-register-page .status {
+  margin-top: 20px;
+  font-size: 14px;
+  color: green;
+  text-align: center;
+}

@@ -1,0 +1,85 @@
+.vender-register-page {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    font-family: "Segoe UI", sans-serif;
+    color: #333;
+  }
+  
+  .vender-register-page h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #007bff;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+  }
+  
+  .vender-register-page .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .vender-register-page .form-group label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #444;
+  }
+  
+  .vender-register-page .form-group input[type="text"],
+  .vender-register-page .form-group input[type="password"],
+  .vender-register-page .form-group input[type="email"],
+  .vender-register-page .form-group input[type="number"],
+  .vender-register-page .form-group input[type="file"] {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .vender-register-page .form-group input:focus {
+    border-color: #007bff;
+  }
+  
+  .vender-register-page .form-group img {
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .vender-register-page .form-group button {
+    padding: 12px;
+    margin-right: 10px;
+    width: 48%;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .vender-register-page .form-group button:last-child {
+    background-color: #28a745;
+  }
+  
+  .vender-register-page .form-group button:hover {
+    opacity: 0.9;
+  }
+  
+  .vender-register-page .status {
+    text-align: center;
+    margin-top: 20px;
+    color: #d9534f;
+    font-weight: 500;
+  }
+  

@@ -1,0 +1,72 @@
+/* Root container for the form */
+.new-catg-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px 25px;
+  background-color: #f2f6fa;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.new-catg-form h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #2c3e50;
+  font-size: 1.6rem;
+}
+
+/* Form group container */
+.new-catg-form .form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styling */
+.new-catg-form .form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #34495e;
+}
+
+/* Input and select styling */
+.new-catg-form .form-group input,
+.new-catg-form .form-group select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccd6dd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus styling for inputs/selects */
+.new-catg-form .form-group input:focus,
+.new-catg-form .form-group select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+/* Submit button */
+.new-catg-form .btn-submit {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Submit button hover effect */
+.new-catg-form .btn-submit:hover {
+  background-color: #0056b3;
+}

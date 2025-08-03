@@ -1,0 +1,59 @@
+/* AdminMain.css */
+
+.admin-main-container {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fdfdfd;
+    min-height: 100vh;
+  }
+  
+  .admin-header {
+    margin-bottom: 2rem;
+  }
+  
+  .admin-banner {
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-top: 1rem;
+  }
+  
+  .admin-nav {
+    margin-top: 1.5rem;
+  }
+  
+  .admin-nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .admin-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: 2px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .admin-link:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .admin-outlet {
+    margin-top: 2rem;
+  }
+  

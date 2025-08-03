@@ -1,0 +1,147 @@
+/* ✅ Container Styling */
+.allproduct-container {
+  padding: 40px 20px;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ✅ Header */
+.allproduct-header {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* ✅ Filter & Search Inputs */
+.allproduct-filter,
+.allproduct-search {
+  margin-bottom: 20px;
+}
+
+.allproduct-filter select,
+.allproduct-search input {
+  padding: 8px;
+  font-size: 14px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+/* ✅ Table Styling */
+.allproduct-table {
+  width: 95%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.allproduct-table th,
+.allproduct-table td {
+  text-align: center;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.allproduct-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+}
+
+.allproduct-table td img {
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* ✅ Buttons */
+.allproduct-table button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #17a2b8;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.allproduct-table button:hover {
+  background-color: #138496;
+}
+
+/* ✅ Popup Overlay */
+.allproduct-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* dim background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* ✅ Centered Popup Form */
+.allproduct-popup-wrapper {
+  background-color: #fff;
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.allproduct-popup-wrapper h3 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+  font-size: 22px;
+}
+
+.allproduct-popup-wrapper input,
+.allproduct-popup-wrapper select {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* ✅ Button Group */
+.allproduct-popup-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.allproduct-popup-buttons button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.allproduct-popup-buttons button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+.allproduct-popup-buttons button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.allproduct-popup-buttons button[type="button"] {
+  background-color: #dc3545;
+  color: white;
+}
+
+.allproduct-popup-buttons button[type="button"]:hover {
+  background-color: #c82333;
+}

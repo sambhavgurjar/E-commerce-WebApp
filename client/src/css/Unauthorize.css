@@ -1,0 +1,44 @@
+.unauth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f6f7fb;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .unauth-card {
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .unauth-card h1 {
+    color: #dc3545;
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  
+  .unauth-card p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .unauth-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .unauth-card button:hover {
+    background-color: #0056b3;
+  }
+  

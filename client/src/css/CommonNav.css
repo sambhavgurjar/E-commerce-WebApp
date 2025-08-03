@@ -1,0 +1,94 @@
+/* CommonNav.css */
+
+/* Navbar container */
+.common-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 20px; /* Reduced padding for compact height */
+  background-color: #e6f2ff;
+  font-family: sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Brand Name (Text Logo) */
+.common-nav-logo .brand-name {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0077cc;
+}
+
+.common-nav-logo .brand-name p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.common-nav-logo .brand-name:hover {
+  color: #005fa3;
+}
+
+/* Navigation Links */
+.common-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.common-nav-links li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.common-nav-links li a:hover {
+  color: #0077cc;
+}
+
+/* Auth Section */
+.common-nav-auth {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.common-nav-auth a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 4px 10px;
+  border: 1px solid #0077cc;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.common-nav-auth a:hover {
+  background-color: #0077cc;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .common-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+  }
+
+  .common-nav-links,
+  .common-nav-auth {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 6px;
+  }
+}

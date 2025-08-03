@@ -1,0 +1,36 @@
+
+.admin-home {
+  padding: 40px 20px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #fff7e6;
+  min-height: 70vh;
+}
+
+.admin-home h2 {
+  font-size: 2.2rem;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+.admin-home-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.admin-btn {
+  padding: 12px 20px;
+  background-color: #ff6600;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.admin-btn:hover {
+  background-color: #cc5200;
+}

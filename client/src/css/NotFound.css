@@ -1,0 +1,44 @@
+.notfound-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #eef1f7;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .notfound-card {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 450px;
+  }
+  
+  .notfound-card h1 {
+    font-size: 32px;
+    color: #ff4757;
+    margin-bottom: 20px;
+  }
+  
+  .notfound-card p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .notfound-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .notfound-card button:hover {
+    background-color: #0056b3;
+  }
+  

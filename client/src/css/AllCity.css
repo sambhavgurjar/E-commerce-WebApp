@@ -1,0 +1,47 @@
+.all-city-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.all-city-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.all-city-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.all-city-table th,
+.all-city-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.all-city-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: 600;
+}
+
+.all-city-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.all-city-table tr:hover {
+  background-color: #eef1f5;
+}
+
+.all-city-loading {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}

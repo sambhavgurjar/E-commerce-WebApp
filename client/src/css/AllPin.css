@@ -1,0 +1,41 @@
+.all-pincode-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f0f9ff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .all-pincode-container h2 {
+    text-align: center;
+    color: #2b4f81;
+    margin-bottom: 20px;
+  }
+  
+  .all-pincode-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .all-pincode-table th,
+  .all-pincode-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .all-pincode-table th {
+    background-color: #d9ecff;
+    color: #333;
+  }
+  
+  .all-pincode-loading {
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+    padding: 20px;
+  }
+  

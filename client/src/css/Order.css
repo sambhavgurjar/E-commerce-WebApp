@@ -1,0 +1,103 @@
+.order-page-container {
+  box-sizing: border-box;
+  width:100%;
+  padding: 25px;
+  background-color: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.order-page-title {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.order-page-info {
+  margin-bottom: 25px;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #dee2e6;
+}
+
+.order-page-form-group {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-page-form-group label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.order-page-form-group input,
+.order-page-form-group select,
+.order-page-form-group textarea {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  background-color: #fff;
+  resize: vertical;
+}
+
+.order-page-form-group textarea {
+  min-height: 70px;
+}
+
+.order-page-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 25px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.order-page-table th,
+.order-page-table td {
+  border: 1px solid #dee2e6;
+  padding: 12px;
+  text-align: center;
+  font-size: 14.5px;
+}
+
+.order-page-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.order-page-img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.order-page-summary {
+  margin-top: 30px;
+  text-align: right;
+  font-size: 18px;
+  color: #212529;
+}
+
+.order-page-btn-confirm {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-page-btn-confirm:hover {
+  background-color: #218838;
+}
