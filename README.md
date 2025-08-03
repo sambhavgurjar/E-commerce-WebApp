@@ -44,9 +44,9 @@ npm install
 
 ####  `server/.env`
 ```env
-PORT=5000
-MONGO_URI=your_mongodb_connection_uri
-JWT_SECRET=your_jwt_secret
+
+
+
 RAZORPAY_SECRET="my_secret"
 RAZORPAY_KEY_ID="my_key"
 JWT_SECRET="MY_JWT_SECRET"
